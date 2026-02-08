@@ -16,10 +16,10 @@ function ShareIcon() {
   );
 }
 
-export default function PosterCard({ title, category, image, downloadUrl }) {
+export default function PosterCard({ title, category, image, downloadUrl, landscape }) {
   return (
     <article className="poster-card">
-      <div className="poster-card__thumbnail">
+      <div className={`poster-card__thumbnail${landscape ? " poster-card__thumbnail--landscape" : ""}`}>
         <Image
           src={image}
           alt={title}
