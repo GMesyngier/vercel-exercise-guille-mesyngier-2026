@@ -1,9 +1,11 @@
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="site-footer">
       <div className="site-footer__inner">
         <p className="site-footer__copy">
-          Vercel &copy;2026 all rights reserved.
+          <span className="text-hightlighted">Vercel</span> &copy;{currentYear} all rights reserved.
         </p>
         <svg
           className="site-footer__logo"

@@ -3,14 +3,13 @@
 .site-footer {
   max-width: 1078px;
   margin: 0 auto;
-  border: 1px solid map-get($theme-colors, "gray-dark");
   border-top: none;
 
   &__inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: map-get($spacing, "xs");
+    padding: map-get($spacing, "m") 0;
   }
 
   &__copy {
@@ -22,6 +21,6 @@
   &__logo {
     width: 16px;
     height: auto;
-    color: map-get($theme-colors, "gray-carbon");
+    color: white;
   }
 }

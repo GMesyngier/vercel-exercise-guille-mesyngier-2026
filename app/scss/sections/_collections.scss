@@ -58,6 +58,7 @@
 .poster-card {
   display: flex;
   flex-direction: column;
+  padding: map-get($spacing, "m");
 
   &__thumbnail {
     width: 100%;
@@ -81,7 +82,6 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: map-get($spacing, "xs");
-    border-top: 1px solid map-get($theme-colors, "gray-dark");
   }
 
   &__info {
