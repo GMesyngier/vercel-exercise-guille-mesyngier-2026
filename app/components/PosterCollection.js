@@ -8,7 +8,7 @@ export default function PosterCollection() {
         <div className="collection__header-cell" />
         <div className="collection__header-cell">
           <p className="collection__header-text">
-            Make your office <span className="text-hightlighted">look awesome.</span>
+            Make your office <span className="text-highlighted">&nbsp;look awesome.</span>
           </p>
         </div>
         <div className="collection__header-cell" />

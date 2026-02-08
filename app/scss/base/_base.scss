@@ -2,15 +2,15 @@
 @use '../utils/mixins' as *;
 
 html,
-body,
-.page {
+body {
   background: #000000;
   color: #fff;
   font-family: $font-text;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @include scrollbars(6px, white, map-get($theme-colors, gray-dark));
 }
 
-.text-hightlighted {
+.text-highlighted {
   color: white;
 }

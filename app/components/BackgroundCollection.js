@@ -8,7 +8,7 @@ export default function BackgroundCollection() {
         <div className="collection__header-cell" />
         <div className="collection__header-cell">
           <p className="collection__header-text">
-            And we&apos;re sure you&apos;ll need some for digitals.
+            And we&apos;re sure you&apos;ll need some&nbsp; <span className="text-highlighted">for digitals</span> .
           </p>
         </div>
         <div className="collection__header-cell" />
