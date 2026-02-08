@@ -1,0 +1,5 @@
+@use '../utils/variables' as *;
+
+.section {
+  margin-top: map-get($spacing , "xs")
+}
