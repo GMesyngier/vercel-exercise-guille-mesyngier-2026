@@ -36,7 +36,7 @@ export default function PosterCard({ title, category, image, downloadUrl, landsc
           <span className="poster-card__category">{category}</span>
         </div>
         <div className="poster-card__actions">
-          <a href={downloadUrl} download className="icon-btn" aria-label={`Download ${title}`}>
+          <a href={downloadUrl} download={downloadUrl.split("/").pop()} className="icon-btn" aria-label={`Download ${title}`}>
             <DownloadIcon />
           </a>
           <button className="icon-btn" aria-label={`Share ${title}`}>
