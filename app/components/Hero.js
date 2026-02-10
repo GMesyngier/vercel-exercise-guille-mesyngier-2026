@@ -10,7 +10,7 @@ export default function Hero() {
         muted
         loop
         playsInline
-        src="header/Vercel-Piramid-Rainbow-45.mp4"
+        src="header/Vercel-Tetraedro-Rainbow-45.mp4"
       />
       <div className="hero__overlay" />
       <div className="hero__content">

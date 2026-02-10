@@ -6,19 +6,13 @@
 
   &__header {
     display: grid;
-    grid-template-columns: 1fr;
     position: relative;
     height: 120px;
     border-bottom: 1px solid map-get($theme-colors, "gray-dark");
     
 
     @media (min-width: map-get($viewport, "tablet")) {
-      grid-template-columns: repeat(2, 1fr);
       height: 160px;
-    }
-
-    @media (min-width: map-get($viewport, "desktop")) {
-      grid-template-columns: repeat(3, 1fr);
     }
   }
 
